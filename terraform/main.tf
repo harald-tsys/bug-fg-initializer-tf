@@ -20,7 +20,7 @@ resource "opentelekomcloud_fgs_function_v2" "myfunction" {
   description      = "Test function"
   memory_size      = 128
   timeout          = 3
-  max_instance_num = 11
+  max_instance_num = 1
 
 
 }
